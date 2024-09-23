@@ -7,7 +7,6 @@ function App() {
 
   return (
     <>
-      <div className="App text-3xl bg-red-400">Render</div>
       <BrowserRouter>
         <Routes>
           <Route path="/signup" element={<Signup />} />
